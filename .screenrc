@@ -1,0 +1,21 @@
+screen -t irssi       0 irssi
+screen -t bash 	      1 bash
+screen -t emacs	      2	emacs
+screen -t nload	      3 nload
+screen -t saidar      4 saidar
+screen -t htop	      5 htop
+screen -t bash	      6 bash
+
+
+hardstatus alwayslastline "%{= G} %w %{= G}        %c:%s                 %Y-%m-%d "
+
+# huge scrollback buffer
+defscrollback 5000
+
+# no welcome message
+startup_message off
+
+# switch windows with F3 (prev) and F4 (next)
+bindkey "^[OR" prev
+bindkey "^[OS" next
+

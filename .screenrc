@@ -9,11 +9,9 @@ screen -t bash	      6 bash
 
 hardstatus alwayslastline "%{= G} %w %{= G}        %c:%s                 %Y-%m-%d "
 
-# harjoiteltu caption-riviä 2019-05-27
-# caption splitonly "%{= kc}%H–%n (%t)%-5=%{= .m}%0c"
 # muodostettu tämä caption lopussa olevilla ohjeilla
 # https://gist.github.com/prettynatty/1328005/dacbc9903fcea5385bb8ee2fde4e1a367d32889c
-caption splitonly "%?%F%{-b bc}%:%{-b bb}%?%n* %t%-0<"
+caption splitonly "%?%F%{-b bc}%:%{-b cc}%?%n* %t%-0<"
 
 # huge scrollback buffer
 defscrollback 5000

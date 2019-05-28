@@ -19,9 +19,10 @@ defscrollback 5000
 # no welcome message
 startup_message off
 
-# switch windows with F3 (prev) and F4 (next)
-bindkey "^[OR" prev
-bindkey "^[OS" next
+# switch windows with ctrl+left (prev) and ctrl+right (next)
+# ei toimi khyl 
+bindkey "^[Od" prev
+bindkey "^[Oc" next
 
 # muista ikkunat
 layout save default

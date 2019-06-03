@@ -82,7 +82,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -alFh'
+alias ll='ls -AlFh'
 alias la='ls -A'
 alias l='ls -CF'
 alias cat='cat -n'
